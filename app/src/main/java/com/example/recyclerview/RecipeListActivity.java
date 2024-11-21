@@ -27,6 +27,12 @@ public class RecipeListActivity extends AppCompatActivity {
         recipeList.add(new Recipe("Biriyani", "Cook rice and meat with spices, then layer and simmer.", R.drawable.img));
         recipeList.add(new Recipe("Pasta", "Boil pasta, toss with sauce, and serve", R.drawable.img_1));
         recipeList.add(new Recipe("Shawarma", "Marinate meat, grill, slice, and serve in pita with toppings.", R.drawable.img_2));
+        recipeList.add(new Recipe("Biriyani", "Cook rice and meat with spices, then layer and simmer.", R.drawable.img));
+        recipeList.add(new Recipe("Pasta", "Boil pasta, toss with sauce, and serve", R.drawable.img_1));
+        recipeList.add(new Recipe("Shawarma", "Marinate meat, grill, slice, and serve in pita with toppings.", R.drawable.img_2));
+        recipeList.add(new Recipe("Biriyani", "Cook rice and meat with spices, then layer and simmer.", R.drawable.img));
+        recipeList.add(new Recipe("Pasta", "Boil pasta, toss with sauce, and serve", R.drawable.img_1));
+        recipeList.add(new Recipe("Shawarma", "Marinate meat, grill, slice, and serve in pita with toppings.", R.drawable.img_2));
 
         // Set adapter
         RecipeAdapter adapter = new RecipeAdapter(recipeList);
